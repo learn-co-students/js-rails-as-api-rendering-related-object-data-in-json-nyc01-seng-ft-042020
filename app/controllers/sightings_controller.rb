@@ -26,8 +26,7 @@ class SightingsController < ApplicationController
           else
             render json: { message: 'No sighting found with that id' }
     end
-    
-    def destroy
-    
-    end
+end
+
+
 end
